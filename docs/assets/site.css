@@ -1,0 +1,12 @@
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #10051f; }
+.aurora { background: radial-gradient(circle at 20% 0%, rgba(126, 34, 206, .42), transparent 31rem), radial-gradient(circle at 90% 15%, rgba(34, 211, 238, .20), transparent 25rem), #10051f; }
+.glass { background: rgba(28, 12, 55, .68); border: 1px solid rgba(255,255,255,.12); box-shadow: 0 20px 60px rgba(0,0,0,.26); backdrop-filter: blur(18px); }
+.logo-glow { filter: drop-shadow(0 0 26px rgba(245, 56, 165, .55)); }
+.grid-bg { background-image: linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px); background-size: 34px 34px; mask-image: linear-gradient(to bottom, black, transparent); }
+.nav-link { color: rgba(255,255,255,.68); transition: color .2s ease; }
+.nav-link:hover, .nav-link[aria-current="page"] { color: white; }
+.btn-primary { background: linear-gradient(110deg, #f43f9d, #a855f7); box-shadow: 0 12px 28px rgba(236,72,153,.32); }
+.btn-primary:hover { transform: translateY(-1px); filter: brightness(1.08); }
+.feature-icon { background: linear-gradient(135deg, rgba(236,72,153,.24), rgba(34,211,238,.22)); }
